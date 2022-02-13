@@ -1,15 +1,15 @@
 {
-  "name": "web-rtc-chat-app-REACT",
+  "name": "web-rtc-chat-app-react",
   "version": "1.0.0",
-  "description": "",
+  "description": "chat",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "nodemon index.js",
-    "start":"node index.js"
+    "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "jorge zerpa",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
@@ -17,5 +17,14 @@
     "nodemon": "^2.0.15",
     "simple-peer": "^9.11.0",
     "socket.io": "^4.4.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jorgezerpa/video-chat-app-react.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jorgezerpa/video-chat-app-react/issues"
+  },
+  "homepage": "https://github.com/jorgezerpa/video-chat-app-react#readme"
 }
